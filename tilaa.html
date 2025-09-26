@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilaa - Laatu Pizza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Laatu Pizza</h1>
+        <nav>
+        <a href="index.html">Koti</a>
+        <a href="menu.html">Menu</a>
+        <a href="tilaa.html" class="tilaat">Tilaa</a>
+        </nav>
+    </header>
+
+    <main>
+    <section>
+    <h2>Tilaa meiltä</h2>
+    <p>Voit soittaa meille tai jättää tilauksen lomakkeella:</p>
+
+    <!-- lomake -->
+      <form id="lomake" class="lomake">
+    <label for="nimi">Nimi:</label>
+    <input type="text" id="nimi" name="nimi" required>
+
+    <label for="puhelin">Puhelinnumero:</label>
+    <input type="tel" id="puhelin" name="puhelin" required>
+
+    <label for="tilaus">Tilauksesi:</label>
+    <textarea id="tilaus" name="tilaus" rows="4" required></textarea>
+
+    <button type="submit">Lähetä tilaus</button>
+     </form>
+
+    <p class="yhteystiedot">
+                Osoite: Laatukatu 10, Helsinki <br>
+                Puhelin: 040 123 4567 <br>
+                Sähköposti: esimerkki@laatupizza.fi
+    </p>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Laatu Pizza</p>
+    </footer>
+</body>
+</html>
